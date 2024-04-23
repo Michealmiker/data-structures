@@ -1,4 +1,28 @@
-﻿#define STATIC_LINKED_LIST
+﻿#define CIRCULAR_LINKED_LIST
+
+#if CIRCULAR_LINKED_LIST
+var clList = new CircularLinkedList<int>();
+
+for (var i = 0; i < 10; i++)
+{
+    clList.Add(i);
+}
+
+Console.WriteLine(clList);
+Console.WriteLine();
+
+clList.Remove();
+clList.RemoveFirst();
+clList.AddFirst(100);
+
+foreach (var elem in clList)
+{
+    Console.WriteLine(elem);
+}
+#endif
+
+
+
 
 #if STATIC_LINKED_LIST
 var slList = new StaticLinkedList<int>(10);
