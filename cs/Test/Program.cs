@@ -1,4 +1,26 @@
-﻿#define DOUBLE_LINKED_LIST
+﻿#define SEQUENTIAL_STACK
+
+#if SEQUENTIAL_STACK
+var sStack = new SequentialStack<int>();
+
+for (int i = 0; i < 10; i++)
+{
+    sStack.Push(i);
+}
+
+Console.WriteLine(sStack);
+Console.WriteLine();
+
+sStack.Pop();
+
+foreach (int elem in sStack)
+{
+    Console.WriteLine(elem);
+}
+#endif
+
+
+
 
 #if DOUBLE_LINKED_LIST
 var dlList = new DoubleLinkedList<int>();
