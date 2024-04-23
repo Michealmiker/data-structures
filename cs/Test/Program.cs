@@ -1,4 +1,26 @@
-﻿#define SEQUENTIAL_STACK
+﻿#define LINKED_STACK
+
+#if LINKED_STACK
+var lStack = new LinkedStack<int>();
+
+for (int i = 0; i < 10; i++)
+{
+    lStack.Push(i);
+}
+
+Console.WriteLine(lStack);
+Console.WriteLine();
+
+lStack.Pop();
+
+foreach (int elem in lStack)
+{
+    Console.WriteLine(elem);
+}
+#endif
+
+
+
 
 #if SEQUENTIAL_STACK
 var sStack = new SequentialStack<int>();
