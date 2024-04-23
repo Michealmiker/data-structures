@@ -1,4 +1,28 @@
-﻿#define LINKED_LIST
+﻿#define STATIC_LINKED_LIST
+
+#if STATIC_LINKED_LIST
+var slList = new StaticLinkedList<int>(10);
+
+for (var i = 0; i < 10; i++)
+{
+    slList.Add(i);
+}
+
+Console.WriteLine(slList);
+Console.WriteLine();
+
+slList.Remove();
+slList.RemoveFirst();
+slList.AddFirst(100);
+
+foreach (var elem in slList)
+{
+    Console.WriteLine(elem);
+}
+#endif
+
+
+
 
 #if LINKED_LIST
 var lList = new DataStructure.Linear.List.LinkedList<int>();
