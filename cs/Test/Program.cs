@@ -1,4 +1,26 @@
-﻿#define SEQUENTIAL_QUEUE
+﻿#define LINKED_QUEUE
+
+#if LINKED_QUEUE
+var lQueue = new LinkedQueue<int>();
+
+for (int i = 0; i < 10; i++)
+{
+    lQueue.EnQueue(i);
+}
+
+Console.WriteLine(lQueue);
+Console.WriteLine();
+
+lQueue.DeQueue();
+
+foreach (int elem in lQueue)
+{
+    Console.WriteLine(elem);
+}
+#endif
+
+
+
 
 #if SEQUENTIAL_QUEUE
 var sQueue = new SequentialQueue<int>();
