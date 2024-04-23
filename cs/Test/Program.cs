@@ -1,4 +1,28 @@
-﻿#define CIRCULAR_LINKED_LIST
+﻿#define DOUBLE_LINKED_LIST
+
+#if DOUBLE_LINKED_LIST
+var dlList = new DoubleLinkedList<int>();
+
+for (var i = 0; i < 10; i++)
+{
+    dlList.Add(i);
+}
+
+Console.WriteLine(dlList);
+Console.WriteLine();
+
+dlList.Remove();
+dlList.RemoveFirst();
+dlList.AddFirst(100);
+
+foreach (var elem in dlList)
+{
+    Console.WriteLine(elem);
+}
+#endif
+
+
+
 
 #if CIRCULAR_LINKED_LIST
 var clList = new CircularLinkedList<int>();
