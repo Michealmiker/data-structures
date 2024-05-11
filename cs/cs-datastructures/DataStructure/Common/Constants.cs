@@ -1,5 +1,8 @@
 namespace DataStructure.Common;
 
+/// <summary>
+/// 全局常量
+/// </summary>
 public static partial class Global
 {
     /// <summary>
