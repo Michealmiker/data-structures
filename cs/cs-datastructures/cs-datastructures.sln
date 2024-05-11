@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{F91800AD-FEA5-424A-8D52-E0DB9C2D96F4}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BCE37592-537A-4B5D-952C-8932C08D8A54}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 	EndGlobalSection
 EndGlobal
