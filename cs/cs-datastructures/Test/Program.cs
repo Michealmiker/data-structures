@@ -1,3 +1,4 @@
 ﻿// Test.TestSequentialList();
+// Test.TestLinkedList();
 
-Test.TestLinkedList();
+Test.TestCircularLinkedList();
