@@ -7,4 +7,5 @@
 // Test.TestSequentialStack();
 // Test.TestLinkedStack();
 
-Test.TestSequentialQueue();
+// Test.TestSequentialQueue();
+Test.TestLinkedQueue();
