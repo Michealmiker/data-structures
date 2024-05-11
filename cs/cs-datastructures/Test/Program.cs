@@ -9,4 +9,6 @@
 
 // Test.TestSequentialQueue();
 // Test.TestLinkedQueue();
-Test.TestCircularQueue();
+// Test.TestCircularQueue();
+
+Test.TestString();
