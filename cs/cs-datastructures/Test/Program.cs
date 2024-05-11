@@ -3,5 +3,6 @@
 // Test.TestCircularLinkedList();
 // Test.TestDoubleLinkedList();
 // Test.TestStaticLinkedList();
+// Test.TestSequentialStack();
 
-Test.TestSequentialStack();
+Test.TestLinkedStack();
