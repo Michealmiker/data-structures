@@ -56,7 +56,7 @@ public class SequentialList<T> : Common.IEnumerable<T>
 		Count = 0;
 	}
 
-	public SequentialList() : this(2)
+	public SequentialList() : this(Global.InitialSize)
 	{
 
 	}

@@ -40,7 +40,7 @@ public class SequentialStack<T>
 		_top = 0;
 	}
 
-	public SequentialStack() : this(2)
+	public SequentialStack() : this(Global.InitialSize)
 	{
 	}
 
