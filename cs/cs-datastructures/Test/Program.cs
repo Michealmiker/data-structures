@@ -8,4 +8,5 @@
 // Test.TestLinkedStack();
 
 // Test.TestSequentialQueue();
-Test.TestLinkedQueue();
+// Test.TestLinkedQueue();
+Test.TestCircularQueue();
