@@ -1,1 +1,3 @@
-﻿Test.TestSequentialList();
+﻿// Test.TestSequentialList();
+
+Test.TestLinkedList();
