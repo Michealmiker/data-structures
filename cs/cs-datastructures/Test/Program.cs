@@ -11,4 +11,6 @@
 // Test.TestLinkedQueue();
 // Test.TestCircularQueue();
 
-Test.TestString();
+// Test.TestString();
+
+Test.TestBinaryTree();
